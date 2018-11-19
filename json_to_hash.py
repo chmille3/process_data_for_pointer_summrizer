@@ -31,9 +31,9 @@ def processJSON(jsonFile,outputDir):
         #url = line['URL_s']
         #url = line['originalUrl']
 
-        #sentences = line['Sentences']
+        sentences = line['Sentences']
         #sentences = line['Sentences_t']
-        sentences = line['mergedsent']
+        #sentences = line['mergedsent']
         
         h = hashhex(url)
         
